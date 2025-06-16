@@ -1,0 +1,10 @@
+| Field          | Type       | Description                     |
+| -------------- | ---------- | ------------------------------- |
+| id             | UUID / INT | Primary key                     |
+| name           | VARCHAR    | User’s full name                |
+| email          | VARCHAR    | Unique email                    |
+| password_hash  | VARCHAR    | Hashed password                 |
+| role           | ENUM       | 'student', 'teacher', 'admin'   |
+| created_at     | TIMESTAMP  | Account creation time           |
+| is_active      | BOOLEAN    | For soft deletion or suspension |
+
