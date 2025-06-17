@@ -1,0 +1,8 @@
+| Aspect         | Details                                                                                                               |
+| -------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **CORS**       | Use CORS middleware on the backend to allow requests from the frontend.                                               |
+| **Ports**      | Frontend and backend often run on different ports during dev (e.g. 3000, 5000).                                       |
+| **Proxy**      | You can set up a proxy in tools like React (`package.json -> proxy`).                                                 |
+| **Deployment** | For production, frontend and backend are usually served from the same origin or through a reverse proxy (like NGINX). |
+| **Security**   | Use HTTPS, authentication (JWT, sessions), and sanitize inputs.                                                       |
+
